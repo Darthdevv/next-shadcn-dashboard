@@ -85,7 +85,7 @@ const AppSidebar = () => {
                   height={20}
                   className="rounded-full"
                 />
-                <span>Lama Dev</span>
+                <span>Darth Dev</span>
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
