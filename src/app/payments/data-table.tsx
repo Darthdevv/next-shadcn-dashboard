@@ -49,7 +49,7 @@ export function DataTable<TData, TValue>({
 
   console.log(table);
   return (
-    <div className="rounded-md border">
+    <main className="rounded-md border">
       <Table>
         <TableHeader>
           {table.getHeaderGroups().map((headerGroup) => (
@@ -111,6 +111,6 @@ export function DataTable<TData, TValue>({
         </Button>
       </div> */}
       <DataTablePagination table={table} />
-    </div>
+    </main>
   );
 }

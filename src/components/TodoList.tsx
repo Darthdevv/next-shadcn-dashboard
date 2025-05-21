@@ -14,7 +14,7 @@ const TodoList = () => {
   const [date, setDate] = useState<Date | undefined>(new Date());
   const [open, setOpen] = useState(false);
   return (
-    <div className="">
+    <section className="">
       <h1 className="text-lg font-medium mb-6">Todo List</h1>
       <Popover open={open} onOpenChange={setOpen}>
         <PopoverTrigger asChild>
@@ -156,7 +156,7 @@ const TodoList = () => {
           </Card>
         </div>
       </ScrollArea>
-    </div>
+    </section>
   );
 };
 

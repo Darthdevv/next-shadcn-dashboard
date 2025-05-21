@@ -31,7 +31,7 @@ const chartData = [
 
 const AppBarChart = () => {
   return (
-    <div className="">
+    <section className="">
       <h1 className="text-lg font-medium mb-6">Total Revenue</h1>
       <ChartContainer config={chartConfig} className="min-h-[200px] w-full">
         <BarChart accessibilityLayer data={chartData}>
@@ -50,7 +50,7 @@ const AppBarChart = () => {
           <Bar dataKey="mobile" fill="var(--color-mobile)" radius={4} />
         </BarChart>
       </ChartContainer>
-    </div>
+    </section>
   );
 };
 

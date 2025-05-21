@@ -23,7 +23,7 @@ import AppLineChart from "@/components/AppLineChart";
 
 const SingleUserPage = () => {
   return (
-    <div className="">
+    <main className="">
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -179,7 +179,7 @@ const SingleUserPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
